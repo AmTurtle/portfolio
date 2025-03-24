@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games | AmTurtle</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <a href="./index.html" class="text-gradient">AmTurtle</a>
+                </div>
+                <div class="nav-links">
+                    <a href="./index.html" id="nav-home">Home</a>
+                    <a href="./about.html" id="nav-about">About</a>
+                    <a href="./games.html" id="nav-games">Games</a>
+                    <a href="./projects.html" id="nav-projects">Projects</a>
+                    <a href="./contact.html" id="nav-contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="games-hero">
+            <h1 class="section-title">Games</h1>
+            <p class="games-intro">Explore my collection of Unity games powered by WebGL.</p>
+        </section>
+
+        <section class="featured-game">
+            <div class="featured-game-container">
+                <div class="featured-game-preview">
+                    <div class="game-placeholder">
+                        <i class="fas fa-gamepad"></i>
+                        <p>Featured Game</p>
+                    </div>
+                    <div class="game-actions">
+                        <a href="./games/BallSimulation/index.html" class="button primary">Play Now</a>
+                        <a href="#" class="button secondary">Source Code</a>
+                    </div>
+                </div>
+                <div class="featured-game-info">
+                    <h2>Physics Simulation</h2>
+                    <p class="game-tagline">A 2D physics simulation</p>
+                    <p class="game-description">Click to spawn balls and watch them bounce off of eachother using a custom physics scripting.</p>
+                    <div class="tech-details">
+                        <h3>Technical Details</h3>
+                        <ul>
+                            <li><strong>Rendering:</strong>Unity 3D</li>
+                            <li><strong>Physics:</strong>Custom Newtonian physics simulation</li>
+                            <li><strong>Performance:</strong>Optimized for 60fps on modern browsers</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="games-grid-section">
+            <h2 class="section-title">All Games</h2>
+            <div class="games-grid">
+                <!-- Game 1 -->
+                <div class="game-card">
+                    <div class="game-image">
+                        <div class="game-placeholder">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                    </div>
+                    <div class="game-info">
+                        <h3>Quantum Puzzler</h3>
+                        <p>A mind-bending puzzle game that plays with physics and dimensions.</p>
+                        <div class="game-tags">
+                            <span class="tag">WebGL</span>
+                            <span class="tag">Three.js</span>
+                            <span class="tag">Physics</span>
+                        </div>
+                        <div class="game-links">
+                            <a href="#" class="button small">Play</a>
+                            <a href="#" class="game-source-link"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Game 2 -->
+                <div class="game-card">
+                    <div class="game-image">
+                        <div class="game-placeholder">
+                            <i class="fas fa-chess-knight"></i>
+                        </div>
+                    </div>
+                    <div class="game-info">
+                        <h3>Strategy Empire</h3>
+                        <p>A turn-based strategy game with beautiful 3D rendered environments.</p>
+                        <div class="game-tags">
+                            <span class="tag">WebGL</span>
+                            <span class="tag">Strategy</span>
+                            <span class="tag">Turn-based</span>
+                        </div>
+                        <div class="game-links">
+                            <a href="#" class="button small">Play</a>
+                            <a href="#" class="game-source-link"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Game 3 -->
+                <div class="game-card">
+                    <div class="game-image">
+                        <div class="game-placeholder">
+                            <i class="fas fa-running"></i>
+                        </div>
+                    </div>
+                    <div class="game-info">
+                        <h3>Endless Runner</h3>
+                        <p>A fast-paced infinite runner with procedurally generated obstacles.</p>
+                        <div class="game-tags">
+                            <span class="tag">WebGL</span>
+                            <span class="tag">Procedural</span>
+                            <span class="tag">Arcade</span>
+                        </div>
+                        <div class="game-links">
+                            <a href="#" class="button small">Play</a>
+                            <a href="#" class="game-source-link"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Game 4 -->
+                <div class="game-card">
+                    <div class="game-image">
+                        <div class="game-placeholder">
+                            <i class="fas fa-mountain"></i>
+                        </div>
+                    </div>
+                    <div class="game-info">
+                        <h3>Terrain Explorer</h3>
+                        <p>An interactive 3D terrain visualization with dynamic weather effects.</p>
+                        <div class="game-tags">
+                            <span class="tag">WebGL</span>
+                            <span class="tag">Simulation</span>
+                            <span class="tag">Procedural</span>
+                        </div>
+                        <div class="game-links">
+                            <a href="#" class="button small">Play</a>
+                            <a href="#" class="game-source-link"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="webgl-info card">
+            <h2>About WebGL</h2>
+            <p>WebGL (Web Graphics Library) is a JavaScript API for rendering interactive 3D and 2D graphics within any compatible web browser without the use of plugins. It enables GPU-accelerated usage of physics and image processing as part of the web page canvas.</p>
+            <p>All games on this page leverage WebGL technology to deliver high-performance, visually rich gaming experiences directly in your browser, no downloads required.</p>
+        </section>
+
+        <section class="contact-cta">
+            <h2>Interested in game development?</h2>
+            <p>Let's discuss your game project ideas or potential collaborations.</p>
+            <a href="./contact.html" class="button primary">Get in Touch</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>&copy; 2025 AmTurtle. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</body>
+</html>
